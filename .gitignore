@@ -1,0 +1,4 @@
+my_work/*
+!my_work/README.md
+.DS_Store
+*.jasp
