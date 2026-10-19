@@ -1,0 +1,14 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Montreal Cognitive Assessment, total score 0 to 30 (26 or more is usually considered normal). Baseline only."
+  },
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "session_id": {
+    "Description": "Session label"
+  },
+  "moca_total": {
+    "Description": "MoCA total score"
+  }
+}

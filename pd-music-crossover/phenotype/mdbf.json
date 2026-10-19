@@ -1,0 +1,83 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Multidimensional Mood Questionnaire (MDBF), 24 items rated 1 (not at all) to 5 (extremely). Three scales of 8 items: GS good versus bad mood, WM alert versus tired, RU calm versus restless. Negatively poled items must be reversed (6 minus the answer) before summing; each scale then ranges 8 to 40, higher is better. NOTE: item order and keying in this simulated dataset are illustrative and do not follow the official MDBF manual."
+  },
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "session_id": {
+    "Description": "Session label"
+  },
+  "mdbf_01": {
+    "Description": "GS item, positively poled"
+  },
+  "mdbf_02": {
+    "Description": "WM item, positively poled"
+  },
+  "mdbf_03": {
+    "Description": "RU item, positively poled"
+  },
+  "mdbf_04": {
+    "Description": "GS item, negatively poled (reverse)"
+  },
+  "mdbf_05": {
+    "Description": "WM item, negatively poled (reverse)"
+  },
+  "mdbf_06": {
+    "Description": "RU item, negatively poled (reverse)"
+  },
+  "mdbf_07": {
+    "Description": "GS item, positively poled"
+  },
+  "mdbf_08": {
+    "Description": "WM item, positively poled"
+  },
+  "mdbf_09": {
+    "Description": "RU item, positively poled"
+  },
+  "mdbf_10": {
+    "Description": "GS item, negatively poled (reverse)"
+  },
+  "mdbf_11": {
+    "Description": "WM item, negatively poled (reverse)"
+  },
+  "mdbf_12": {
+    "Description": "RU item, negatively poled (reverse)"
+  },
+  "mdbf_13": {
+    "Description": "GS item, positively poled"
+  },
+  "mdbf_14": {
+    "Description": "WM item, positively poled"
+  },
+  "mdbf_15": {
+    "Description": "RU item, positively poled"
+  },
+  "mdbf_16": {
+    "Description": "GS item, negatively poled (reverse)"
+  },
+  "mdbf_17": {
+    "Description": "WM item, negatively poled (reverse)"
+  },
+  "mdbf_18": {
+    "Description": "RU item, negatively poled (reverse)"
+  },
+  "mdbf_19": {
+    "Description": "GS item, positively poled"
+  },
+  "mdbf_20": {
+    "Description": "WM item, positively poled"
+  },
+  "mdbf_21": {
+    "Description": "RU item, positively poled"
+  },
+  "mdbf_22": {
+    "Description": "GS item, negatively poled (reverse)"
+  },
+  "mdbf_23": {
+    "Description": "WM item, negatively poled (reverse)"
+  },
+  "mdbf_24": {
+    "Description": "RU item, negatively poled (reverse)"
+  }
+}

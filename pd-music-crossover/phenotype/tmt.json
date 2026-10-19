@@ -1,0 +1,19 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Trail Making Test, parts A and B"
+  },
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "session_id": {
+    "Description": "Session label"
+  },
+  "tmt_a_seconds": {
+    "Description": "Completion time for part A",
+    "Units": "s"
+  },
+  "tmt_b_seconds": {
+    "Description": "Completion time for part B. Testing stops at 300 s, so 300 means discontinued",
+    "Units": "s"
+  }
+}

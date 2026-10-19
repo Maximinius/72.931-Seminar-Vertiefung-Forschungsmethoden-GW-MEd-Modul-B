@@ -1,0 +1,32 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Generalized Anxiety Disorder 7 (anxiety symptoms, past two weeks). Items scored 0 to 3; total 0 to 21"
+  },
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "session_id": {
+    "Description": "Session label"
+  },
+  "gad7_01": {
+    "Description": "Item 1 (0 not at all, 1 several days, 2 more than half the days, 3 nearly every day)"
+  },
+  "gad7_02": {
+    "Description": "Item 2, scored as item 1"
+  },
+  "gad7_03": {
+    "Description": "Item 3, scored as item 1"
+  },
+  "gad7_04": {
+    "Description": "Item 4, scored as item 1"
+  },
+  "gad7_05": {
+    "Description": "Item 5, scored as item 1"
+  },
+  "gad7_06": {
+    "Description": "Item 6, scored as item 1"
+  },
+  "gad7_07": {
+    "Description": "Item 7, scored as item 1"
+  }
+}

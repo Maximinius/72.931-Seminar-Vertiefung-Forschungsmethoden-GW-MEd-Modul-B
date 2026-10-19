@@ -1,0 +1,45 @@
+{
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "age": {
+    "Description": "Age at baseline",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Sex",
+    "Levels": {
+      "male": "male",
+      "female": "female"
+    }
+  },
+  "hospital": {
+    "Description": "Recruiting hospital",
+    "Levels": {
+      "Charite": "Charite, Berlin",
+      "Beelitz": "Parkinson clinic Beelitz-Heilstaetten",
+      "UKE": "University Medical Center Hamburg-Eppendorf",
+      "Leipzig": "University Hospital Leipzig",
+      "Naumburg": "Naumburg clinic",
+      "Haukeland": "Haukeland University Hospital, Bergen, Norway"
+    }
+  },
+  "sequence": {
+    "Description": "Randomised order of the two intervention periods, balanced within each hospital",
+    "Levels": {
+      "music_first": "music listening in period 1, audiobook listening in period 2",
+      "audiobook_first": "audiobook listening in period 1, music listening in period 2"
+    }
+  },
+  "disease_duration_years": {
+    "Description": "Years since PD diagnosis",
+    "Units": "years"
+  },
+  "hoehn_yahr": {
+    "Description": "Hoehn and Yahr stage at baseline (1 to 5, half steps allowed)"
+  },
+  "levodopa_mg_day": {
+    "Description": "Daily levodopa intake, stable throughout the study",
+    "Units": "mg/day"
+  }
+}

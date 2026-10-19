@@ -1,0 +1,14 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "MDS-UPDRS Part III motor examination, rated by a clinician in the ON medication state"
+  },
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "session_id": {
+    "Description": "Session label"
+  },
+  "mds_updrs3_total": {
+    "Description": "MDS-UPDRS Part III total score (0 to 132, higher is worse)"
+  }
+}

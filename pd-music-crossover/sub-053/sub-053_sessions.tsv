@@ -1,0 +1,5 @@
+session_id	acq_time	condition	sleep_hours_prev_night
+ses-baseline	2025-07-01T11:15:00	none	5.75
+ses-period1	2025-07-29T13:45:00	music	6.0
+ses-period2	2025-09-09T10:15:00	audiobook	6.75
+ses-followup	2025-11-04T13:45:00	none	4.5

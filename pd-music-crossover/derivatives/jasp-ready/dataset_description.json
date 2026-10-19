@@ -1,0 +1,11 @@
+{
+  "Name": "PD-MUSIC JASP-ready tables",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "simulate_dataset.py",
+      "Description": "Questionnaire scoring, tapping aggregation and reshaping into long and wide tables."
+    }
+  ]
+}

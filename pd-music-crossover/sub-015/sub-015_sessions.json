@@ -1,0 +1,20 @@
+{
+  "session_id": {
+    "Description": "Session label"
+  },
+  "acq_time": {
+    "Description": "Date and time of the testing session"
+  },
+  "condition": {
+    "Description": "Listening condition in the 4 weeks before this session",
+    "Levels": {
+      "none": "no intervention (baseline or follow-up)",
+      "music": "30 min music listening per day",
+      "audiobook": "30 min audiobook listening per day"
+    }
+  },
+  "sleep_hours_prev_night": {
+    "Description": "Self-reported hours slept the night before testing",
+    "Units": "hours"
+  }
+}

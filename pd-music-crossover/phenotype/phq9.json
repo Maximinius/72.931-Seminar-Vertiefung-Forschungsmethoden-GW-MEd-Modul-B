@@ -1,0 +1,38 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Patient Health Questionnaire 9 (depressive symptoms, past two weeks). Items scored 0 to 3; total 0 to 27"
+  },
+  "participant_id": {
+    "Description": "Unique participant label"
+  },
+  "session_id": {
+    "Description": "Session label"
+  },
+  "phq9_01": {
+    "Description": "Item 1 (0 not at all, 1 several days, 2 more than half the days, 3 nearly every day)"
+  },
+  "phq9_02": {
+    "Description": "Item 2, scored as item 1"
+  },
+  "phq9_03": {
+    "Description": "Item 3, scored as item 1"
+  },
+  "phq9_04": {
+    "Description": "Item 4, scored as item 1"
+  },
+  "phq9_05": {
+    "Description": "Item 5, scored as item 1"
+  },
+  "phq9_06": {
+    "Description": "Item 6, scored as item 1"
+  },
+  "phq9_07": {
+    "Description": "Item 7, scored as item 1"
+  },
+  "phq9_08": {
+    "Description": "Item 8, scored as item 1"
+  },
+  "phq9_09": {
+    "Description": "Item 9, scored as item 1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Name": "PD-MUSIC: music versus audiobook listening in Parkinson's disease (simulated teaching dataset)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC0",
+  "Authors": [
+    "Advanced Research Methods course team"
+  ],
+  "HowToAcknowledge": "Simulated data for teaching. Do not cite as empirical evidence.",
+  "GeneratedBy": [
+    {
+      "Name": "simulate_dataset.py",
+      "Description": "Fully simulated data. No real patients were involved."
+    }
+  ]
+}

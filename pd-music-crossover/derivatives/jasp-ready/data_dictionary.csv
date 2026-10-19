@@ -1,0 +1,195 @@
+file,variable,description,unit_or_range
+clinical_long.csv,participant_id,Participant label (matches the BIDS folder name),
+clinical_long.csv,age,Age at baseline,years
+clinical_long.csv,sex,Sex,"male, female"
+clinical_long.csv,hospital,Recruiting hospital,
+clinical_long.csv,sequence,Order of the intervention periods: music_first or audiobook_first,
+clinical_long.csv,disease_duration_years,Years since PD diagnosis,years
+clinical_long.csv,hoehn_yahr,Hoehn and Yahr stage at baseline,1 to 5
+clinical_long.csv,levodopa_mg_day,Daily levodopa intake,mg/day
+clinical_long.csv,moca_total,MoCA total at baseline,"0 to 30, higher is better"
+clinical_long.csv,nmsquest_total,NMS-Quest total at baseline (number of non-motor symptoms),0 to 30
+clinical_long.csv,session,"Session: baseline, period1, period2 or followup",
+clinical_long.csv,session_number,Session number in time order,1 to 4
+clinical_long.csv,week,Study week of the session,weeks since baseline
+clinical_long.csv,condition,Listening condition in the 4 weeks before the session,"none, music, audiobook"
+clinical_long.csv,sleep,Hours slept the night before testing,hours
+clinical_long.csv,updrs3,MDS-UPDRS Part III motor score,"0 to 132, higher is worse"
+clinical_long.csv,tmt_a,Trail Making Test A completion time,"seconds, lower is better"
+clinical_long.csv,tmt_b,Trail Making Test B completion time (300 = discontinued),"seconds, lower is better"
+clinical_long.csv,phq9,PHQ-9 depression total,"0 to 27, higher is worse"
+clinical_long.csv,gad7,GAD-7 anxiety total,"0 to 21, higher is worse"
+clinical_long.csv,mdbf_gs,MDBF good versus bad mood,"8 to 40, higher is better mood"
+clinical_long.csv,mdbf_wm,MDBF alert versus tired,"8 to 40, higher is more alert"
+clinical_long.csv,mdbf_ru,MDBF calm versus restless,"8 to 40, higher is calmer"
+clinical_wide_by_session.csv,participant_id,Participant label (matches the BIDS folder name),
+clinical_wide_by_session.csv,age,Age at baseline,years
+clinical_wide_by_session.csv,sex,Sex,"male, female"
+clinical_wide_by_session.csv,hospital,Recruiting hospital,
+clinical_wide_by_session.csv,sequence,Order of the intervention periods: music_first or audiobook_first,
+clinical_wide_by_session.csv,disease_duration_years,Years since PD diagnosis,years
+clinical_wide_by_session.csv,hoehn_yahr,Hoehn and Yahr stage at baseline,1 to 5
+clinical_wide_by_session.csv,levodopa_mg_day,Daily levodopa intake,mg/day
+clinical_wide_by_session.csv,moca_total,MoCA total at baseline,"0 to 30, higher is better"
+clinical_wide_by_session.csv,nmsquest_total,NMS-Quest total at baseline (number of non-motor symptoms),0 to 30
+clinical_wide_by_session.csv,completed_followup,Whether the patient attended the follow-up session (no means dropped out before follow-up),"yes, no"
+clinical_wide_by_session.csv,sleep_baseline,Hours slept the night before testing (at baseline),hours
+clinical_wide_by_session.csv,sleep_period1,Hours slept the night before testing (after intervention period 1),hours
+clinical_wide_by_session.csv,sleep_period2,Hours slept the night before testing (after intervention period 2),hours
+clinical_wide_by_session.csv,sleep_followup,Hours slept the night before testing (at follow-up),hours
+clinical_wide_by_session.csv,updrs3_baseline,MDS-UPDRS Part III motor score (at baseline),"0 to 132, higher is worse"
+clinical_wide_by_session.csv,updrs3_period1,MDS-UPDRS Part III motor score (after intervention period 1),"0 to 132, higher is worse"
+clinical_wide_by_session.csv,updrs3_period2,MDS-UPDRS Part III motor score (after intervention period 2),"0 to 132, higher is worse"
+clinical_wide_by_session.csv,updrs3_followup,MDS-UPDRS Part III motor score (at follow-up),"0 to 132, higher is worse"
+clinical_wide_by_session.csv,tmt_a_baseline,Trail Making Test A completion time (at baseline),"seconds, lower is better"
+clinical_wide_by_session.csv,tmt_a_period1,Trail Making Test A completion time (after intervention period 1),"seconds, lower is better"
+clinical_wide_by_session.csv,tmt_a_period2,Trail Making Test A completion time (after intervention period 2),"seconds, lower is better"
+clinical_wide_by_session.csv,tmt_a_followup,Trail Making Test A completion time (at follow-up),"seconds, lower is better"
+clinical_wide_by_session.csv,tmt_b_baseline,Trail Making Test B completion time (300 = discontinued) (at baseline),"seconds, lower is better"
+clinical_wide_by_session.csv,tmt_b_period1,Trail Making Test B completion time (300 = discontinued) (after intervention period 1),"seconds, lower is better"
+clinical_wide_by_session.csv,tmt_b_period2,Trail Making Test B completion time (300 = discontinued) (after intervention period 2),"seconds, lower is better"
+clinical_wide_by_session.csv,tmt_b_followup,Trail Making Test B completion time (300 = discontinued) (at follow-up),"seconds, lower is better"
+clinical_wide_by_session.csv,phq9_baseline,PHQ-9 depression total (at baseline),"0 to 27, higher is worse"
+clinical_wide_by_session.csv,phq9_period1,PHQ-9 depression total (after intervention period 1),"0 to 27, higher is worse"
+clinical_wide_by_session.csv,phq9_period2,PHQ-9 depression total (after intervention period 2),"0 to 27, higher is worse"
+clinical_wide_by_session.csv,phq9_followup,PHQ-9 depression total (at follow-up),"0 to 27, higher is worse"
+clinical_wide_by_session.csv,gad7_baseline,GAD-7 anxiety total (at baseline),"0 to 21, higher is worse"
+clinical_wide_by_session.csv,gad7_period1,GAD-7 anxiety total (after intervention period 1),"0 to 21, higher is worse"
+clinical_wide_by_session.csv,gad7_period2,GAD-7 anxiety total (after intervention period 2),"0 to 21, higher is worse"
+clinical_wide_by_session.csv,gad7_followup,GAD-7 anxiety total (at follow-up),"0 to 21, higher is worse"
+clinical_wide_by_session.csv,mdbf_gs_baseline,MDBF good versus bad mood (at baseline),"8 to 40, higher is better mood"
+clinical_wide_by_session.csv,mdbf_gs_period1,MDBF good versus bad mood (after intervention period 1),"8 to 40, higher is better mood"
+clinical_wide_by_session.csv,mdbf_gs_period2,MDBF good versus bad mood (after intervention period 2),"8 to 40, higher is better mood"
+clinical_wide_by_session.csv,mdbf_gs_followup,MDBF good versus bad mood (at follow-up),"8 to 40, higher is better mood"
+clinical_wide_by_session.csv,mdbf_wm_baseline,MDBF alert versus tired (at baseline),"8 to 40, higher is more alert"
+clinical_wide_by_session.csv,mdbf_wm_period1,MDBF alert versus tired (after intervention period 1),"8 to 40, higher is more alert"
+clinical_wide_by_session.csv,mdbf_wm_period2,MDBF alert versus tired (after intervention period 2),"8 to 40, higher is more alert"
+clinical_wide_by_session.csv,mdbf_wm_followup,MDBF alert versus tired (at follow-up),"8 to 40, higher is more alert"
+clinical_wide_by_session.csv,mdbf_ru_baseline,MDBF calm versus restless (at baseline),"8 to 40, higher is calmer"
+clinical_wide_by_session.csv,mdbf_ru_period1,MDBF calm versus restless (after intervention period 1),"8 to 40, higher is calmer"
+clinical_wide_by_session.csv,mdbf_ru_period2,MDBF calm versus restless (after intervention period 2),"8 to 40, higher is calmer"
+clinical_wide_by_session.csv,mdbf_ru_followup,MDBF calm versus restless (at follow-up),"8 to 40, higher is calmer"
+clinical_wide_by_condition.csv,participant_id,Participant label (matches the BIDS folder name),
+clinical_wide_by_condition.csv,age,Age at baseline,years
+clinical_wide_by_condition.csv,sex,Sex,"male, female"
+clinical_wide_by_condition.csv,hospital,Recruiting hospital,
+clinical_wide_by_condition.csv,sequence,Order of the intervention periods: music_first or audiobook_first,
+clinical_wide_by_condition.csv,disease_duration_years,Years since PD diagnosis,years
+clinical_wide_by_condition.csv,hoehn_yahr,Hoehn and Yahr stage at baseline,1 to 5
+clinical_wide_by_condition.csv,levodopa_mg_day,Daily levodopa intake,mg/day
+clinical_wide_by_condition.csv,moca_total,MoCA total at baseline,"0 to 30, higher is better"
+clinical_wide_by_condition.csv,nmsquest_total,NMS-Quest total at baseline (number of non-motor symptoms),0 to 30
+clinical_wide_by_condition.csv,completed_followup,Whether the patient attended the follow-up session (no means dropped out before follow-up),"yes, no"
+clinical_wide_by_condition.csv,sleep_baseline,Hours slept the night before testing (at baseline),hours
+clinical_wide_by_condition.csv,sleep_music,Hours slept the night before testing (after the music period),hours
+clinical_wide_by_condition.csv,sleep_audiobook,Hours slept the night before testing (after the audiobook period),hours
+clinical_wide_by_condition.csv,sleep_followup,Hours slept the night before testing (at follow-up),hours
+clinical_wide_by_condition.csv,updrs3_baseline,MDS-UPDRS Part III motor score (at baseline),"0 to 132, higher is worse"
+clinical_wide_by_condition.csv,updrs3_music,MDS-UPDRS Part III motor score (after the music period),"0 to 132, higher is worse"
+clinical_wide_by_condition.csv,updrs3_audiobook,MDS-UPDRS Part III motor score (after the audiobook period),"0 to 132, higher is worse"
+clinical_wide_by_condition.csv,updrs3_followup,MDS-UPDRS Part III motor score (at follow-up),"0 to 132, higher is worse"
+clinical_wide_by_condition.csv,tmt_a_baseline,Trail Making Test A completion time (at baseline),"seconds, lower is better"
+clinical_wide_by_condition.csv,tmt_a_music,Trail Making Test A completion time (after the music period),"seconds, lower is better"
+clinical_wide_by_condition.csv,tmt_a_audiobook,Trail Making Test A completion time (after the audiobook period),"seconds, lower is better"
+clinical_wide_by_condition.csv,tmt_a_followup,Trail Making Test A completion time (at follow-up),"seconds, lower is better"
+clinical_wide_by_condition.csv,tmt_b_baseline,Trail Making Test B completion time (300 = discontinued) (at baseline),"seconds, lower is better"
+clinical_wide_by_condition.csv,tmt_b_music,Trail Making Test B completion time (300 = discontinued) (after the music period),"seconds, lower is better"
+clinical_wide_by_condition.csv,tmt_b_audiobook,Trail Making Test B completion time (300 = discontinued) (after the audiobook period),"seconds, lower is better"
+clinical_wide_by_condition.csv,tmt_b_followup,Trail Making Test B completion time (300 = discontinued) (at follow-up),"seconds, lower is better"
+clinical_wide_by_condition.csv,phq9_baseline,PHQ-9 depression total (at baseline),"0 to 27, higher is worse"
+clinical_wide_by_condition.csv,phq9_music,PHQ-9 depression total (after the music period),"0 to 27, higher is worse"
+clinical_wide_by_condition.csv,phq9_audiobook,PHQ-9 depression total (after the audiobook period),"0 to 27, higher is worse"
+clinical_wide_by_condition.csv,phq9_followup,PHQ-9 depression total (at follow-up),"0 to 27, higher is worse"
+clinical_wide_by_condition.csv,gad7_baseline,GAD-7 anxiety total (at baseline),"0 to 21, higher is worse"
+clinical_wide_by_condition.csv,gad7_music,GAD-7 anxiety total (after the music period),"0 to 21, higher is worse"
+clinical_wide_by_condition.csv,gad7_audiobook,GAD-7 anxiety total (after the audiobook period),"0 to 21, higher is worse"
+clinical_wide_by_condition.csv,gad7_followup,GAD-7 anxiety total (at follow-up),"0 to 21, higher is worse"
+clinical_wide_by_condition.csv,mdbf_gs_baseline,MDBF good versus bad mood (at baseline),"8 to 40, higher is better mood"
+clinical_wide_by_condition.csv,mdbf_gs_music,MDBF good versus bad mood (after the music period),"8 to 40, higher is better mood"
+clinical_wide_by_condition.csv,mdbf_gs_audiobook,MDBF good versus bad mood (after the audiobook period),"8 to 40, higher is better mood"
+clinical_wide_by_condition.csv,mdbf_gs_followup,MDBF good versus bad mood (at follow-up),"8 to 40, higher is better mood"
+clinical_wide_by_condition.csv,mdbf_wm_baseline,MDBF alert versus tired (at baseline),"8 to 40, higher is more alert"
+clinical_wide_by_condition.csv,mdbf_wm_music,MDBF alert versus tired (after the music period),"8 to 40, higher is more alert"
+clinical_wide_by_condition.csv,mdbf_wm_audiobook,MDBF alert versus tired (after the audiobook period),"8 to 40, higher is more alert"
+clinical_wide_by_condition.csv,mdbf_wm_followup,MDBF alert versus tired (at follow-up),"8 to 40, higher is more alert"
+clinical_wide_by_condition.csv,mdbf_ru_baseline,MDBF calm versus restless (at baseline),"8 to 40, higher is calmer"
+clinical_wide_by_condition.csv,mdbf_ru_music,MDBF calm versus restless (after the music period),"8 to 40, higher is calmer"
+clinical_wide_by_condition.csv,mdbf_ru_audiobook,MDBF calm versus restless (after the audiobook period),"8 to 40, higher is calmer"
+clinical_wide_by_condition.csv,mdbf_ru_followup,MDBF calm versus restless (at follow-up),"8 to 40, higher is calmer"
+tapping_long.csv,participant_id,Participant label (matches the BIDS folder name),
+tapping_long.csv,hospital,Recruiting hospital,
+tapping_long.csv,sequence,Order of the intervention periods: music_first or audiobook_first,
+tapping_long.csv,session,"Session: baseline, period1, period2 or followup",
+tapping_long.csv,session_number,Session number in time order,1 to 4
+tapping_long.csv,condition,Listening condition in the 4 weeks before the session,"none, music, audiobook"
+tapping_long.csv,tempo_bpm,Metronome tempo of the tapping block,"60, 90 or 120 bpm"
+tapping_long.csv,mean_abs_async_ms,"Mean absolute tap asynchrony (how far off the beat, either direction), beats 6 to 40","ms, lower is better"
+tapping_long.csv,sd_async_ms,"Standard deviation of tap asynchrony (timing variability), beats 6 to 40","ms, lower is better"
+tapping_long.csv,mean_signed_async_ms,Mean signed asynchrony; negative means tapping ahead of the beat,ms
+tapping_long.csv,n_taps,Number of valid taps used (beats 6 to 40),0 to 35
+tapping_wide_by_session.csv,participant_id,Participant label (matches the BIDS folder name),
+tapping_wide_by_session.csv,hospital,Recruiting hospital,
+tapping_wide_by_session.csv,sequence,Order of the intervention periods: music_first or audiobook_first,
+tapping_wide_by_session.csv,age,Age at baseline,years
+tapping_wide_by_session.csv,sex,Sex,"male, female"
+tapping_wide_by_session.csv,disease_duration_years,Years since PD diagnosis,years
+tapping_wide_by_session.csv,levodopa_mg_day,Daily levodopa intake,mg/day
+tapping_wide_by_session.csv,moca_total,MoCA total at baseline,"0 to 30, higher is better"
+tapping_wide_by_session.csv,updrs3_baseline,MDS-UPDRS Part III motor score (at baseline),"0 to 132, higher is worse"
+tapping_wide_by_session.csv,tap_abs_60bpm_baseline,Mean absolute tap asynchrony at 60 bpm (at baseline),"ms, lower is better"
+tapping_wide_by_session.csv,tap_abs_90bpm_baseline,Mean absolute tap asynchrony at 90 bpm (at baseline),"ms, lower is better"
+tapping_wide_by_session.csv,tap_abs_120bpm_baseline,Mean absolute tap asynchrony at 120 bpm (at baseline),"ms, lower is better"
+tapping_wide_by_session.csv,tap_abs_60bpm_period1,Mean absolute tap asynchrony at 60 bpm (after intervention period 1),"ms, lower is better"
+tapping_wide_by_session.csv,tap_abs_90bpm_period1,Mean absolute tap asynchrony at 90 bpm (after intervention period 1),"ms, lower is better"
+tapping_wide_by_session.csv,tap_abs_120bpm_period1,Mean absolute tap asynchrony at 120 bpm (after intervention period 1),"ms, lower is better"
+tapping_wide_by_session.csv,tap_abs_60bpm_period2,Mean absolute tap asynchrony at 60 bpm (after intervention period 2),"ms, lower is better"
+tapping_wide_by_session.csv,tap_abs_90bpm_period2,Mean absolute tap asynchrony at 90 bpm (after intervention period 2),"ms, lower is better"
+tapping_wide_by_session.csv,tap_abs_120bpm_period2,Mean absolute tap asynchrony at 120 bpm (after intervention period 2),"ms, lower is better"
+tapping_wide_by_session.csv,tap_abs_60bpm_followup,Mean absolute tap asynchrony at 60 bpm (at follow-up),"ms, lower is better"
+tapping_wide_by_session.csv,tap_abs_90bpm_followup,Mean absolute tap asynchrony at 90 bpm (at follow-up),"ms, lower is better"
+tapping_wide_by_session.csv,tap_abs_120bpm_followup,Mean absolute tap asynchrony at 120 bpm (at follow-up),"ms, lower is better"
+tapping_wide_by_session.csv,tap_sd_60bpm_baseline,Tap timing variability (SD of asynchrony) at 60 bpm (at baseline),"ms, lower is better"
+tapping_wide_by_session.csv,tap_sd_90bpm_baseline,Tap timing variability (SD of asynchrony) at 90 bpm (at baseline),"ms, lower is better"
+tapping_wide_by_session.csv,tap_sd_120bpm_baseline,Tap timing variability (SD of asynchrony) at 120 bpm (at baseline),"ms, lower is better"
+tapping_wide_by_session.csv,tap_sd_60bpm_period1,Tap timing variability (SD of asynchrony) at 60 bpm (after intervention period 1),"ms, lower is better"
+tapping_wide_by_session.csv,tap_sd_90bpm_period1,Tap timing variability (SD of asynchrony) at 90 bpm (after intervention period 1),"ms, lower is better"
+tapping_wide_by_session.csv,tap_sd_120bpm_period1,Tap timing variability (SD of asynchrony) at 120 bpm (after intervention period 1),"ms, lower is better"
+tapping_wide_by_session.csv,tap_sd_60bpm_period2,Tap timing variability (SD of asynchrony) at 60 bpm (after intervention period 2),"ms, lower is better"
+tapping_wide_by_session.csv,tap_sd_90bpm_period2,Tap timing variability (SD of asynchrony) at 90 bpm (after intervention period 2),"ms, lower is better"
+tapping_wide_by_session.csv,tap_sd_120bpm_period2,Tap timing variability (SD of asynchrony) at 120 bpm (after intervention period 2),"ms, lower is better"
+tapping_wide_by_session.csv,tap_sd_60bpm_followup,Tap timing variability (SD of asynchrony) at 60 bpm (at follow-up),"ms, lower is better"
+tapping_wide_by_session.csv,tap_sd_90bpm_followup,Tap timing variability (SD of asynchrony) at 90 bpm (at follow-up),"ms, lower is better"
+tapping_wide_by_session.csv,tap_sd_120bpm_followup,Tap timing variability (SD of asynchrony) at 120 bpm (at follow-up),"ms, lower is better"
+tapping_wide_by_condition.csv,participant_id,Participant label (matches the BIDS folder name),
+tapping_wide_by_condition.csv,hospital,Recruiting hospital,
+tapping_wide_by_condition.csv,sequence,Order of the intervention periods: music_first or audiobook_first,
+tapping_wide_by_condition.csv,age,Age at baseline,years
+tapping_wide_by_condition.csv,sex,Sex,"male, female"
+tapping_wide_by_condition.csv,disease_duration_years,Years since PD diagnosis,years
+tapping_wide_by_condition.csv,levodopa_mg_day,Daily levodopa intake,mg/day
+tapping_wide_by_condition.csv,moca_total,MoCA total at baseline,"0 to 30, higher is better"
+tapping_wide_by_condition.csv,updrs3_baseline,MDS-UPDRS Part III motor score (at baseline),"0 to 132, higher is worse"
+tapping_wide_by_condition.csv,tap_abs_60bpm_baseline,Mean absolute tap asynchrony at 60 bpm (at baseline),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_abs_90bpm_baseline,Mean absolute tap asynchrony at 90 bpm (at baseline),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_abs_120bpm_baseline,Mean absolute tap asynchrony at 120 bpm (at baseline),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_abs_60bpm_music,Mean absolute tap asynchrony at 60 bpm (after the music period),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_abs_90bpm_music,Mean absolute tap asynchrony at 90 bpm (after the music period),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_abs_120bpm_music,Mean absolute tap asynchrony at 120 bpm (after the music period),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_abs_60bpm_audiobook,Mean absolute tap asynchrony at 60 bpm (after the audiobook period),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_abs_90bpm_audiobook,Mean absolute tap asynchrony at 90 bpm (after the audiobook period),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_abs_120bpm_audiobook,Mean absolute tap asynchrony at 120 bpm (after the audiobook period),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_abs_60bpm_followup,Mean absolute tap asynchrony at 60 bpm (at follow-up),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_abs_90bpm_followup,Mean absolute tap asynchrony at 90 bpm (at follow-up),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_abs_120bpm_followup,Mean absolute tap asynchrony at 120 bpm (at follow-up),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_sd_60bpm_baseline,Tap timing variability (SD of asynchrony) at 60 bpm (at baseline),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_sd_90bpm_baseline,Tap timing variability (SD of asynchrony) at 90 bpm (at baseline),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_sd_120bpm_baseline,Tap timing variability (SD of asynchrony) at 120 bpm (at baseline),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_sd_60bpm_music,Tap timing variability (SD of asynchrony) at 60 bpm (after the music period),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_sd_90bpm_music,Tap timing variability (SD of asynchrony) at 90 bpm (after the music period),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_sd_120bpm_music,Tap timing variability (SD of asynchrony) at 120 bpm (after the music period),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_sd_60bpm_audiobook,Tap timing variability (SD of asynchrony) at 60 bpm (after the audiobook period),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_sd_90bpm_audiobook,Tap timing variability (SD of asynchrony) at 90 bpm (after the audiobook period),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_sd_120bpm_audiobook,Tap timing variability (SD of asynchrony) at 120 bpm (after the audiobook period),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_sd_60bpm_followup,Tap timing variability (SD of asynchrony) at 60 bpm (at follow-up),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_sd_90bpm_followup,Tap timing variability (SD of asynchrony) at 90 bpm (at follow-up),"ms, lower is better"
+tapping_wide_by_condition.csv,tap_sd_120bpm_followup,Tap timing variability (SD of asynchrony) at 120 bpm (at follow-up),"ms, lower is better"
