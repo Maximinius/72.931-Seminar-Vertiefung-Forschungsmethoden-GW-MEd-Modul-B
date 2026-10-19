@@ -20,7 +20,7 @@ Use `cleaned/` unless the worksheet says otherwise.
 - Install JASP (jasp-stats.org). Enable the Mixed Models module, which you will need later.
 - JASP needs to know that `n/a` means missing. Find out where JASP keeps its missing value codes and check that `n/a` is one of them. The raw BIDS files use `n/a`. The JASP-ready tables use empty cells, which JASP reads as missing anyway.
 
-The next worksheet appears on Monday 26 October at 08:00.
+The next worksheet appears on Friday 23 October at 08:00.
 
 ## Getting each week's materials
 
