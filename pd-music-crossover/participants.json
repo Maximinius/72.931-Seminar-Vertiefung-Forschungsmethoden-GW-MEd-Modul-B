@@ -33,13 +33,17 @@
   },
   "disease_duration_years": {
     "Description": "Years since PD diagnosis",
-    "Units": "years"
+    "Units": "years",
+    "Minimum": 0
   },
   "hoehn_yahr": {
-    "Description": "Hoehn and Yahr stage at baseline (1 to 5, half steps allowed)"
+    "Description": "Hoehn and Yahr stage at baseline (1 to 5, half steps allowed)",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "levodopa_mg_day": {
     "Description": "Daily levodopa intake, stable throughout the study",
-    "Units": "mg/day"
+    "Units": "mg/day",
+    "Minimum": 0
   }
 }

@@ -2,18 +2,25 @@
   "TaskName": "tapping",
   "Instructions": "Tap the space bar in time with the beat. Three blocks of 40 beats, one per tempo (60, 90 and 120 bpm), in random order.",
   "block": {
-    "Description": "Block number within the session (1 to 3)"
+    "Description": "Block number within the session (1 to 3)",
+    "Minimum": 1,
+    "Maximum": 3
   },
   "tempo_bpm": {
     "Description": "Metronome tempo",
-    "Units": "beats per minute"
+    "Units": "beats per minute",
+    "Minimum": 60,
+    "Maximum": 120
   },
   "beat": {
-    "Description": "Beat number within the block (1 to 40). Beats 1 to 5 are the synchronisation-in phase."
+    "Description": "Beat number within the block (1 to 40). Beats 1 to 5 are the synchronisation-in phase.",
+    "Minimum": 1,
+    "Maximum": 40
   },
   "stim_onset_s": {
     "Description": "Beat onset relative to block start",
-    "Units": "s"
+    "Units": "s",
+    "Minimum": 0
   },
   "tap_onset_s": {
     "Description": "Tap onset relative to block start; n/a if no tap",

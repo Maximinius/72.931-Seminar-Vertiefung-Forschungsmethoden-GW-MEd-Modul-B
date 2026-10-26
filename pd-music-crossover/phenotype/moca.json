@@ -9,6 +9,8 @@
     "Description": "Session label"
   },
   "moca_total": {
-    "Description": "MoCA total score"
+    "Description": "MoCA total score",
+    "Minimum": 0,
+    "Maximum": 30
   }
 }

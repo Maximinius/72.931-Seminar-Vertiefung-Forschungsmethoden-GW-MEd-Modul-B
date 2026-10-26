@@ -9,6 +9,153 @@
     "Description": "Session label"
   },
   "nmsq_01": {
-    "Description": "Item 1 (1 yes, 0 no). Items 2 to 30 are coded the same way"
+    "Description": "Item 1 (1 yes, 0 no)",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_02": {
+    "Description": "Item 2, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_03": {
+    "Description": "Item 3, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_04": {
+    "Description": "Item 4, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_05": {
+    "Description": "Item 5, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_06": {
+    "Description": "Item 6, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_07": {
+    "Description": "Item 7, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_08": {
+    "Description": "Item 8, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_09": {
+    "Description": "Item 9, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_10": {
+    "Description": "Item 10, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_11": {
+    "Description": "Item 11, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_12": {
+    "Description": "Item 12, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_13": {
+    "Description": "Item 13, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_14": {
+    "Description": "Item 14, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_15": {
+    "Description": "Item 15, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_16": {
+    "Description": "Item 16, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_17": {
+    "Description": "Item 17, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_18": {
+    "Description": "Item 18, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_19": {
+    "Description": "Item 19, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_20": {
+    "Description": "Item 20, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_21": {
+    "Description": "Item 21, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_22": {
+    "Description": "Item 22, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_23": {
+    "Description": "Item 23, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_24": {
+    "Description": "Item 24, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_25": {
+    "Description": "Item 25, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_26": {
+    "Description": "Item 26, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_27": {
+    "Description": "Item 27, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_28": {
+    "Description": "Item 28, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_29": {
+    "Description": "Item 29, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
+  },
+  "nmsq_30": {
+    "Description": "Item 30, coded as item 1",
+    "Minimum": 0,
+    "Maximum": 1
   }
 }

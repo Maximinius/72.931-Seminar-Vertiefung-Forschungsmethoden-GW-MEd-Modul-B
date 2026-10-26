@@ -9,75 +9,123 @@
     "Description": "Session label"
   },
   "mdbf_01": {
-    "Description": "GS item, positively poled"
+    "Description": "GS item, positively poled",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_02": {
-    "Description": "WM item, positively poled"
+    "Description": "WM item, positively poled",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_03": {
-    "Description": "RU item, positively poled"
+    "Description": "RU item, positively poled",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_04": {
-    "Description": "GS item, negatively poled (reverse)"
+    "Description": "GS item, negatively poled (reverse)",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_05": {
-    "Description": "WM item, negatively poled (reverse)"
+    "Description": "WM item, negatively poled (reverse)",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_06": {
-    "Description": "RU item, negatively poled (reverse)"
+    "Description": "RU item, negatively poled (reverse)",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_07": {
-    "Description": "GS item, positively poled"
+    "Description": "GS item, positively poled",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_08": {
-    "Description": "WM item, positively poled"
+    "Description": "WM item, positively poled",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_09": {
-    "Description": "RU item, positively poled"
+    "Description": "RU item, positively poled",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_10": {
-    "Description": "GS item, negatively poled (reverse)"
+    "Description": "GS item, negatively poled (reverse)",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_11": {
-    "Description": "WM item, negatively poled (reverse)"
+    "Description": "WM item, negatively poled (reverse)",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_12": {
-    "Description": "RU item, negatively poled (reverse)"
+    "Description": "RU item, negatively poled (reverse)",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_13": {
-    "Description": "GS item, positively poled"
+    "Description": "GS item, positively poled",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_14": {
-    "Description": "WM item, positively poled"
+    "Description": "WM item, positively poled",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_15": {
-    "Description": "RU item, positively poled"
+    "Description": "RU item, positively poled",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_16": {
-    "Description": "GS item, negatively poled (reverse)"
+    "Description": "GS item, negatively poled (reverse)",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_17": {
-    "Description": "WM item, negatively poled (reverse)"
+    "Description": "WM item, negatively poled (reverse)",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_18": {
-    "Description": "RU item, negatively poled (reverse)"
+    "Description": "RU item, negatively poled (reverse)",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_19": {
-    "Description": "GS item, positively poled"
+    "Description": "GS item, positively poled",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_20": {
-    "Description": "WM item, positively poled"
+    "Description": "WM item, positively poled",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_21": {
-    "Description": "RU item, positively poled"
+    "Description": "RU item, positively poled",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_22": {
-    "Description": "GS item, negatively poled (reverse)"
+    "Description": "GS item, negatively poled (reverse)",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_23": {
-    "Description": "WM item, negatively poled (reverse)"
+    "Description": "WM item, negatively poled (reverse)",
+    "Minimum": 1,
+    "Maximum": 5
   },
   "mdbf_24": {
-    "Description": "RU item, negatively poled (reverse)"
+    "Description": "RU item, negatively poled (reverse)",
+    "Minimum": 1,
+    "Maximum": 5
   }
 }

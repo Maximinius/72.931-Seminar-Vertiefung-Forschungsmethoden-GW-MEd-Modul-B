@@ -9,24 +9,38 @@
     "Description": "Session label"
   },
   "gad7_01": {
-    "Description": "Item 1 (0 not at all, 1 several days, 2 more than half the days, 3 nearly every day)"
+    "Description": "Item 1 (0 not at all, 1 several days, 2 more than half the days, 3 nearly every day)",
+    "Minimum": 0,
+    "Maximum": 3
   },
   "gad7_02": {
-    "Description": "Item 2, scored as item 1"
+    "Description": "Item 2, scored as item 1",
+    "Minimum": 0,
+    "Maximum": 3
   },
   "gad7_03": {
-    "Description": "Item 3, scored as item 1"
+    "Description": "Item 3, scored as item 1",
+    "Minimum": 0,
+    "Maximum": 3
   },
   "gad7_04": {
-    "Description": "Item 4, scored as item 1"
+    "Description": "Item 4, scored as item 1",
+    "Minimum": 0,
+    "Maximum": 3
   },
   "gad7_05": {
-    "Description": "Item 5, scored as item 1"
+    "Description": "Item 5, scored as item 1",
+    "Minimum": 0,
+    "Maximum": 3
   },
   "gad7_06": {
-    "Description": "Item 6, scored as item 1"
+    "Description": "Item 6, scored as item 1",
+    "Minimum": 0,
+    "Maximum": 3
   },
   "gad7_07": {
-    "Description": "Item 7, scored as item 1"
+    "Description": "Item 7, scored as item 1",
+    "Minimum": 0,
+    "Maximum": 3
   }
 }

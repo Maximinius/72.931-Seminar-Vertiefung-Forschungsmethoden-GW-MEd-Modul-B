@@ -9,6 +9,8 @@
     "Description": "Session label"
   },
   "mds_updrs3_total": {
-    "Description": "MDS-UPDRS Part III total score (0 to 132, higher is worse)"
+    "Description": "MDS-UPDRS Part III total score (0 to 132, higher is worse)",
+    "Minimum": 0,
+    "Maximum": 132
   }
 }

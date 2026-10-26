@@ -10,10 +10,13 @@
   },
   "tmt_a_seconds": {
     "Description": "Completion time for part A",
-    "Units": "s"
+    "Units": "s",
+    "Minimum": 0
   },
   "tmt_b_seconds": {
     "Description": "Completion time for part B. Testing stops at 300 s, so 300 means discontinued",
-    "Units": "s"
+    "Units": "s",
+    "Minimum": 0,
+    "Maximum": 300
   }
 }
