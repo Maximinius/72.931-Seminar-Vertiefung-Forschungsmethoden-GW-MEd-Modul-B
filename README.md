@@ -15,13 +15,14 @@ Use `cleaned/` unless the worksheet says otherwise.
 |---|---|---|---|---|
 | Intro | 19 Oct | What was measured, on whom and when? | `as_collected/clinical_long.csv`, `as_collected/clinical_wide_by_session.csv` | The study, BIDS, codebooks, long vs wide, scales of measurement, research designs |
 | 1 | 26 Oct | Are there impossible values, and do they matter? | `as_collected/clinical_wide_by_session.csv` | Descriptives, plots, data checking, outliers |
+| 2 | 02 Nov | Who is missing, and does it matter? | `cleaned/clinical_wide_by_session.csv` | Missing data |
 
 ## Before the first session
 
 - Install JASP (jasp-stats.org). Enable the Mixed Models module, which you will need later.
 - JASP needs to know that `n/a` means missing. Find out where JASP keeps its missing value codes and check that `n/a` is one of them. The raw BIDS files use `n/a`. The JASP-ready tables use empty cells, which JASP reads as missing anyway.
 
-The next worksheet appears on Friday 30 October at 08:00.
+The next worksheet appears on Friday 06 November at 08:00.
 
 ## Getting each week's materials
 

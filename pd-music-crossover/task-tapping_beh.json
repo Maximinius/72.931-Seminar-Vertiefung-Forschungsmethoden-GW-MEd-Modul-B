@@ -9,8 +9,11 @@
   "tempo_bpm": {
     "Description": "Metronome tempo",
     "Units": "beats per minute",
-    "Minimum": 60,
-    "Maximum": 120
+    "Levels": {
+      "60": "60 beats per minute",
+      "90": "90 beats per minute",
+      "120": "120 beats per minute"
+    }
   },
   "beat": {
     "Description": "Beat number within the block (1 to 40). Beats 1 to 5 are the synchronisation-in phase.",
